@@ -49,7 +49,7 @@ document.querySelector("#isPopulationLess").addEventListener("click", () => {
     alert ("YES");
   }
   else {
-    return ("NO");
+    alert ("NO");
   }
 })
 
