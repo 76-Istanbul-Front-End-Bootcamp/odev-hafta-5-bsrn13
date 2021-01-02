@@ -54,7 +54,7 @@ document.querySelector("#isPopulationLess").addEventListener("click", () => {
 })
 
 document.querySelector("#isLandBigger").addEventListener("click", () => {
-  const landBigger = data.every(cities => cities.landArea > 1000);
+  const landBigger = data.every(cities => cities.landArea > 100);
   if (landBigger) {
     alert ("YES");
   }
